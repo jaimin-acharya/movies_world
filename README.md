@@ -123,8 +123,8 @@ npm run dev
 **Jaimin Acharya**
 
 * GitHub: [@jaimin-acharya](https://github.com/jaimin-acharya)
-* Email: *Add your email here if you'd like*
-* Portfolio: *Add portfolio link here (optional)*
+* Email: jaiminacharya9@gmail.com
+* Portfolio: [porfolio](https://jaiminacharya.vercel.app)
 
 ---
 
