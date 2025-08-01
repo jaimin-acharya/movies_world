@@ -26,8 +26,7 @@ Welcome to **Movie World** – a modern movie browsing platform that allows user
 - 🔐 Protected routes using Firebase Authentication  
 - 📱 Fully responsive and accessible UI  
 - ✨ Smooth animations and polished visuals  
-- 📤 Email verification, forgot password, and OTP login  
-- 🌙 Dark/light mode ready (optional)
+- 📤 Email verification, forgot password, and login  
 
 ---
 
