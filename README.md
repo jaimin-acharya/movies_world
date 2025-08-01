@@ -2,23 +2,32 @@
 
 Welcome to **Movie World** – a modern movie browsing platform that allows users to explore trending movies and series, manage wishlists, and enjoy a seamless movie discovery experience.
 
-## 🌐 Live
-[View](https://infomoviesworld.vercel.app/)
+---
 
 ![Movie World Banner](./public/moviesworld.png)
 
+## 🌐 Live
+🔗 [Visit Movie World](https://infomoviesworld.vercel.app/)
+
 ---
 
-## 🔥 Features
+![React](https://img.shields.io/badge/React-2023-blue)
+![Firebase](https://img.shields.io/badge/Firebase-Auth-yellow)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38BDF8)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+
+---
+
+## 🚀 Features
 
 - 🔍 Search for movies and TV shows  
 - 📺 View trending and popular movies/series  
 - ❤️ Add/remove movies to/from your wishlist  
-- 🔐 Protected routes using Firebase Auth  
+- 🔐 Protected routes using Firebase Authentication  
 - 📱 Fully responsive and accessible UI  
-- 🎨 Shiny, animated text and clean visuals  
-- 📤 Email verification, forgot password, and OTP login (Firebase)  
-- 🌙 Dark/light theme ready (optional)
+- ✨ Smooth animations and polished visuals  
+- 📤 Email verification, forgot password, and OTP login  
+- 🌙 Dark/light mode ready (optional)
 
 ---
 
@@ -26,52 +35,50 @@ Welcome to **Movie World** – a modern movie browsing platform that allows user
 
 | Category        | Tech Used                                                      |
 |----------------|-----------------------------------------------------------------|
-| 🧑‍💻 Frontend      | [React.js](https://reactjs.org/) + [Vite](https://vitejs.dev/)|
+| 🧑‍💻 Frontend      | [React.js](https://reactjs.org/) + [Vite](https://vitejs.dev/)        |
 | 🌐 Routing       | [React Router DOM](https://reactrouter.com/)                  |
 | 🎨 Styling       | [Tailwind CSS](https://tailwindcss.com/)                      |
 | 🔐 Auth          | Firebase Authentication + OTP Login                           |
 | 📦 Backend API   | [Appwrite](https://appwrite.io/)                              |
-| 📁 State Mgmt    | React useState/useEffect                                      |
-| 🍿 Data          | TMDb API (The Movie Database) or similar                      |
+| 📁 State Mgmt    | React useState/useEffect (or Context if extended)             |
+| 🍿 Data          | TMDb API (The Movie Database)                                 |
 | 🚀 Deployment    | [Vercel](https://vercel.com/)                                 |
 
 ---
 
-## 📁 Folder Structure (Simplified)
+## 📁 Folder Structure
 
-```
-
-movies\_world/
+```bash
+movies_world/
 ├── public/
-│   └── moviesworld.png      # Banner image
+│   └── moviesworld.png        # Banner image
 ├── src/
-│   ├── api/                 # API logic (e.g., TMDb functions)
-│   ├── assets/              # Static assets like logos
+│   ├── api/                   # API logic (e.g., TMDb functions)
+│   ├── assets/                # Static assets like logos
 │   ├── components/
-│   │   ├── Layout/          # App layout (header, footer)
-│   │   ├── Ui/              # Reusable UI components
-│   │   │   ├── Movies/      # Movie cards, lists
-│   │   │   └── TvSeries/    # TV-specific components
-│   ├── pages/               # Route pages (home, login, signup, etc.)
-│   ├── App.jsx              # Main app component
-│   ├── firebase.js          # Firebase config
-│   ├── appwrite.js          # Appwrite config (if used)
-├── .env.example             # Environment variables template
+│   │   ├── Layout/            # App layout (header, footer)
+│   │   ├── Ui/
+│   │   │   ├── Movies/        # Movie cards, lists
+│   │   │   └── TvSeries/      # TV-specific components
+│   ├── pages/                 # Route pages (home, login, signup, etc.)
+│   ├── App.jsx                # Main app component
+│   ├── firebase.js            # Firebase config
+│   ├── appwrite.js            # Appwrite config (if used)
+├── .env.example               # Environment variables template
 ├── vite.config.js
 └── README.md
-
-```
+````
 
 ---
 
-## 🚀 Getting Started
+## 🔧 Getting Started
 
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/jaimin-acharya/movies_world.git
 cd movies_world
-````
+```
 
 ### 2. Install Dependencies
 
@@ -107,17 +114,28 @@ VITE_FIREBASE_APP_ID=YOUR_FIREBASE_APP_ID
 npm run dev
 ```
 
-> App will be live at `http://localhost:5173`
+App will be available at:
+👉 `http://localhost:5173`
 
 ---
 
-## ✅ Usage
+## ✅ How to Use
 
-* Visit the homepage to see trending movies/series
-* Use the search bar to find specific titles
-* Sign up/login to add movies to your wishlist
-* Navigate through pages like About, Contact, Series, Movies
-* Reset password and verify email through Firebase flows
+* Visit homepage to explore trending movies and TV shows
+* Use the search bar for specific titles
+* Sign up or log in to unlock wishlist features
+* Add/remove movies from your wishlist
+* Use password reset and email verification features
+* Access protected routes only after login
+* Mobile-friendly, responsive layout for any device
+
+---
+
+## 🖼️ Screenshots (Optional)
+
+| Home Page                  | Wishlist Page                      |
+| -------------------------- | ---------------------------------- |
+| ![Home](./public/home.png) | ![Wishlist](./public/wishlist.png) |
 
 ---
 
@@ -126,8 +144,8 @@ npm run dev
 **Jaimin Acharya**
 
 * GitHub: [@jaimin-acharya](https://github.com/jaimin-acharya)
-* Email: jaiminacharya9@gmail.com
-* Portfolio: [porfolio](https://jaiminacharya.vercel.app)
+* Email: [jaiminacharya9@gmail.com](mailto:jaiminacharya9@gmail.com)
+* Portfolio: [https://jaiminacharya.vercel.app](https://jaiminacharya.vercel.app)
 
 ---
 
@@ -137,12 +155,11 @@ This project is licensed under the **MIT License** – see the [LICENSE](./LICEN
 
 ---
 
-### 🌐 Live Demo
+## 🔗 Live Demo
 
-[Vercel](https://infomoviesworld.vercel.app/)
+👉 [Movie World on Vercel](https://infomoviesworld.vercel.app/)
 
 ---
 
-Made with ❤️ using React, Vite, Firebase & Tailwind CSS
-
+Made with ❤️ using React, Vite, Firebase & Tailwind CSS.
 
