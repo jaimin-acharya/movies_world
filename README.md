@@ -2,6 +2,9 @@
 
 Welcome to **Movie World** – a modern movie browsing platform that allows users to explore trending movies and series, manage wishlists, and enjoy a seamless movie discovery experience.
 
+## 🌐 Live
+[View](https://infomoviesworld.vercel.app/)
+
 ![Movie World Banner](./public/moviesworld.png)
 
 ---
@@ -136,7 +139,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](./LICEN
 
 ### 🌐 Live Demo
 
-Coming soon on [Vercel](https://vercel.com/)... 👀
+[Vercel](https://infomoviesworld.vercel.app/)
 
 ---
 
