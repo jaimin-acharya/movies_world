@@ -12,7 +12,6 @@ import {
 } from "./api/tmdb-api";
 import Spinner from "./components/Ui/Spinner";
 import { Suspense, useEffect, useState } from "react";
-import SeriesDetails from "./components/Ui/SeriesDetails";
 import Loader from "./components/Ui/Loader";
 import {
   HomePageSkeleton,
@@ -27,6 +26,7 @@ import ProtectedRoute from "./components/Ui/ProtectedRoute";
 import MovieDetails from "./components/Ui/Movies/MovieDetails";
 import ForgotPassword from "./pages/ForgotPassword";
 import VerifyEmail from "./pages/VerifyEmail";
+import SeriesDetails from "./components/Ui/TvSeries/SeriesDetails";
 
 const App = () => {
   const [initialLoading, setInitialLoading] = useState(true);

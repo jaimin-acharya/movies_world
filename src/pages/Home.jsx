@@ -1,11 +1,7 @@
 import { Suspense, useState } from "react";
 import SearchBar from "../components/Ui/SearchBar";
 
-import PopularSeries from "../components/Ui/PopularSeries";
-import TrendingMoviesSeries from "../components/Ui/TrendingMoviesSeries";
-import TopRatedSeries from "../components/Ui/TopRatedSeries";
-import TrendingSeries from "../components/Ui/TrendingSeries";
-import AiringTodaySeries from "../components/Ui/AiringTodaySeries";
+
 import HomeButtons from "../components/Ui/HomeButtons";
 
 import { PopularCarouselSkeleton } from "../components/Ui/Skeleton";
@@ -14,6 +10,11 @@ import PopularMovies from "../components/Ui/Movies/PopularMovies";
 import TopRatedMovies from "../components/Ui/Movies/TopRatedMovies";
 import UpcomingMovies from "../components/Ui/Movies/UpcomingMovies";
 import HomeMovies from "../components/Ui/HomeMovies";
+import PopularSeries from "../components/Ui/TvSeries/PopularSeries";
+import TopRatedSeries from "../components/Ui/TvSeries/TopRatedSeries";
+import TrendingSeries from "../components/Ui/TvSeries/TrendingSeries";
+import AiringTodaySeries from "../components/Ui/TvSeries/AiringTodaySeries";
+import TrendingMoviesSeries from "../components/Ui/TrendingMoviesSeries";
 
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");

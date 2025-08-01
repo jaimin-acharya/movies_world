@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { fetchSeriesVideos } from "../../api/tmdb-api";
+import { fetchSeriesVideos } from "../../../api/tmdb-api";
 import { useParams } from "react-router";
-import Spinner from "./Spinner";
+import Spinner from "../Spinner";
 import { Film, Play } from "lucide-react";
 
 const SeriesTrailer = () => {

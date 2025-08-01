@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
-import { fetchSeriesCredits } from "../../api/tmdb-api";
+import { fetchSeriesCredits } from "../../../api/tmdb-api";
 import { useParams } from "react-router";
-import Spinner from "./Spinner";
+import Spinner from "../Spinner";
 import { ChevronLeft, ChevronRight, Film, Users, User } from "lucide-react";
 
 const SeriesCast = () => {

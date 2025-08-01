@@ -1,19 +1,19 @@
 import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { fetchTopRatedSeriesFromTMDB } from "../../api/tmdb-api";
-import HomeCard from "./HomeCard";
-import { PopularCarouselSkeleton } from "./Skeleton";
+import { fetchPopularSeriesFromTMDB } from "../../../api/tmdb-api";
+import HomeCard from "../HomeCard";
+import { PopularCarouselSkeleton } from "../Skeleton";
 
-const TopRatedSeries = () => {
+const PopularSeries = () => {
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
 
-  const LoadTopRatedSeries = async () => {
+  const loadPopularSeries = async () => {
     setIsLoading(true);
     setError("");
     try {
-      const results = await fetchTopRatedSeriesFromTMDB();
+      const results = await fetchPopularSeriesFromTMDB();
       setMovies(results);
     } catch {
       setError("Failed to load movies. Try again.");
@@ -23,7 +23,7 @@ const TopRatedSeries = () => {
   };
 
   useEffect(() => {
-    LoadTopRatedSeries();
+    loadPopularSeries();
   }, []);
 
   const scrollRef = useRef(null);
@@ -55,7 +55,7 @@ const TopRatedSeries = () => {
     <>
       <section className="home-movies mt-10">
         <h2 className="text-2xl sm:text-3xl font-semibold text-white">
-          Top Rated TV Series
+          Popular TV Series
         </h2>
 
         {isLoading ? (
@@ -93,4 +93,4 @@ const TopRatedSeries = () => {
   );
 };
 
-export default TopRatedSeries;
+export default PopularSeries;

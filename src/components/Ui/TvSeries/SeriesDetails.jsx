@@ -5,8 +5,7 @@ import SeriesEpisodeList from "./SeriesEpisodeList";
 import SeriesReview from "./SeriesReview";
 import SeriesSimilar from "./SeriesSimilar";
 import SeriesTrailer from "./SeriesTrailer";
-  
-import { PageSkeleton } from "./Skeleton";
+import { PageSkeleton } from "../Skeleton";
 
 const SeriesDetails = () => {
   return (

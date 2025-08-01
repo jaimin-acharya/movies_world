@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useParams } from "react-router";
-import { fetchSeriesDetails, fetchSeriesEpisodes } from "../../api/tmdb-api";
-import Spinner from "./Spinner";
+import { fetchSeriesDetails, fetchSeriesEpisodes } from "../../../api/tmdb-api";
 import {
   Calendar,
   ChevronLeft,

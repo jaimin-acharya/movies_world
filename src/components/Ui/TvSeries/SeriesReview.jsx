@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { fetchSeriesReviews } from "../../api/tmdb-api";
+import { fetchSeriesReviews } from "../../../api/tmdb-api";
 import { useParams } from "react-router";
-import Spinner from "./Spinner";
+import Spinner from "../Spinner";
 import { Film, MessageCircle, Star } from "lucide-react";
 
 const SeriesReview = () => {

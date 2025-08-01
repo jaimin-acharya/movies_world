@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { fetchAiringTodaySeriesFromTMDB } from "../../api/tmdb-api";
-import HomeCard from "./HomeCard";
-import { PopularCarouselSkeleton } from "./Skeleton";
+import { fetchAiringTodaySeriesFromTMDB } from "../../../api/tmdb-api";
+import HomeCard from "../HomeCard";
+import { PopularCarouselSkeleton } from "../Skeleton";
 
 const AiringTodaySeries = () => {
   const [movies, setMovies] = useState([]);

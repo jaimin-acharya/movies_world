@@ -2,11 +2,12 @@ import { Suspense, useEffect, useState } from "react";
 import { updateSearchCount } from "../appwrite";
 import Spinner from "../components/Ui/Spinner";
 import { fetchSeriesFromTMDB } from "../api/tmdb-api";
-import SeriesCard from "../components/Ui/SeriesCard";
+
 import SearchBar from "../components/Ui/SearchBar";
 import { MovieGridSkeleton } from "../components/Ui/Skeleton";
 import Pagination from "../components/Ui/Pagination";
 import { useSearchParams } from "react-router";
+import SeriesCard from "../components/Ui/TvSeries/SeriesCard";
 
 const Series = () => {
   const [searchParams, setSearchParams] = useSearchParams();

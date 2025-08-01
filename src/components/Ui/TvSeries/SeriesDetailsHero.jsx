@@ -10,8 +10,8 @@ import {
   Heart,
 } from "lucide-react";
 import { useLoaderData, useNavigate } from "react-router";
-import { SeriesDetailsHeroSkeleton } from "./Skeleton";
-import { useWishlist } from "./UseWishList";
+import { SeriesDetailsHeroSkeleton } from "../Skeleton";
+import { useWishlist } from "../UseWishList";
 
 const SeriesDetailsHero = () => {
   const movieData = useLoaderData();

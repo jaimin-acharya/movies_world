@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
-import { fetchSimilarSeries } from "../../api/tmdb-api";
+import { fetchSimilarSeries } from "../../../api/tmdb-api";
 import { useParams } from "react-router";
 import { NavLink } from "react-router-dom";
-import Spinner from "./Spinner";
+import Spinner from "../Spinner";
 import { ChevronLeft, ChevronRight, Film } from "lucide-react";
 
 const SeriesSimilar = () => {
