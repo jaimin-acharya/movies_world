@@ -1,12 +1,22 @@
 # 🎥 Movies World
 
-Welcome to **Movies World** – a modern movie browsing platform that allows users to explore trending movies and series, manage wishlists, and enjoy a seamless movie discovery experience.
+## Welcome to **Movies World** – a modern movie browsing platform that allows users to explore trending movies and series, manage wishlists, and enjoy a seamless movie discovery experience.
+
+---
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)    
+![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)    
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase&logoColor=white)    
+![Appwrite](https://img.shields.io/badge/appwrite-%23F02E65.svg?style=for-the-badge&logo=appwrite&logoColor=white)    
+![React Router](https://img.shields.io/badge/React_Router-%23CA4245.svg?style=for-the-badge&logo=react-router&logoColor=white)  
+
 
 ---
 
 ![Movies World Banner](./public/moviesworld.png)
 
 ## 🌐 Live
+
 🔗 [Visit Movies World](https://infomoviesworld.vercel.app/)
 
 ---
@@ -20,28 +30,28 @@ Welcome to **Movies World** – a modern movie browsing platform that allows use
 
 ## 🚀 Features
 
-- 🔍 Search for movies and TV shows  
-- 📺 View trending and popular movies/series  
-- ❤️ Add/remove movies to/from your wishlist  
-- 🔐 Protected routes using Firebase Authentication  
-- 📱 Fully responsive and accessible UI  
-- ✨ Smooth animations and polished visuals  
-- 📤 Email verification, forgot password, and login  
+- 🔍 Search for movies and TV shows
+- 📺 View trending and popular movies/series
+- ❤️ Add/remove movies to/from your wishlist
+- 🔐 Protected routes using Firebase Authentication
+- 📱 Fully responsive and accessible UI
+- ✨ Smooth animations and polished visuals
+- 📤 Email verification, forgot password, and login
 
 ---
 
 ## 🧰 Tech Stack
 
-| Category        | Tech Used                                                      |
-|----------------|-----------------------------------------------------------------|
-| 🧑‍💻 Frontend      | [React.js](https://reactjs.org/) + [Vite](https://vitejs.dev/)        |
-| 🌐 Routing       | [React Router DOM](https://reactrouter.com/)                  |
-| 🎨 Styling       | [Tailwind CSS](https://tailwindcss.com/)                      |
-| 🔐 Auth          | Firebase Authentication + OTP Login                           |
-| 📦 Backend API   | [Appwrite](https://appwrite.io/)                              |
-| 📁 State Mgmt    | React useState/useEffect (or Context if extended)             |
-| 🍿 Data          | TMDb API (The Movie Database)                                 |
-| 🚀 Deployment    | [Vercel](https://vercel.com/)                                 |
+| Category       | Tech Used                                                      |
+| -------------- | -------------------------------------------------------------- |
+| 🧑‍💻 Frontend    | [React.js](https://reactjs.org/) + [Vite](https://vitejs.dev/) |
+| 🌐 Routing     | [React Router DOM](https://reactrouter.com/)                   |
+| 🎨 Styling     | [Tailwind CSS](https://tailwindcss.com/)                       |
+| 🔐 Auth        | Firebase Authentication + OTP Login                            |
+| 📦 Backend API | [Appwrite](https://appwrite.io/)                               |
+| 📁 State Mgmt  | React useState/useEffect (or Context if extended)              |
+| 🍿 Data        | TMDb API (The Movie Database)                                  |
+| 🚀 Deployment  | [Vercel](https://vercel.com/)                                  |
 
 ---
 
@@ -66,7 +76,7 @@ movies_world/
 ├── .env.example               # Environment variables template
 ├── vite.config.js
 └── README.md
-````
+```
 
 ---
 
@@ -120,13 +130,13 @@ App will be available at:
 
 ## ✅ How to Use
 
-* Visit homepage to explore trending movies and TV shows
-* Use the search bar for specific titles
-* Sign up or log in to unlock wishlist features
-* Add/remove movies from your wishlist
-* Use password reset and email verification features
-* Access protected routes only after login
-* Mobile-friendly, responsive layout for any device
+- Visit homepage to explore trending movies and TV shows
+- Use the search bar for specific titles
+- Sign up or log in to unlock wishlist features
+- Add/remove movies from your wishlist
+- Use password reset and email verification features
+- Access protected routes only after login
+- Mobile-friendly, responsive layout for any device
 
 ---
 
@@ -134,9 +144,9 @@ App will be available at:
 
 **Jaimin Acharya**
 
-* GitHub: [@jaimin-acharya](https://github.com/jaimin-acharya)
-* Email: [jaiminacharya9@gmail.com](mailto:jaiminacharya9@gmail.com)
-* Portfolio: [https://jaiminacharya.vercel.app](https://jaiminacharya.vercel.app)
+- GitHub: [@jaimin-acharya](https://github.com/jaimin-acharya)
+- Email: [jaiminacharya9@gmail.com](mailto:jaiminacharya9@gmail.com)
+- Portfolio: [https://jaiminacharya.vercel.app](https://jaiminacharya.vercel.app)
 
 ---
 
@@ -153,4 +163,3 @@ This project is licensed under the **MIT License** – see the [LICENSE](./LICEN
 ---
 
 Made with ❤️ using React, Vite, Firebase & Tailwind CSS.
-
