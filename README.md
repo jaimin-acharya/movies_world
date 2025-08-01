@@ -3,7 +3,7 @@
 
 Welcome to **Movie World** – a modern movie browsing platform that allows users to explore trending movies and series, manage wishlists, and enjoy a seamless movie discovery experience.
 
-![Movie World Banner](public/moviesworld.png)
+(public/moviesworld.png)
 
 ---
 
