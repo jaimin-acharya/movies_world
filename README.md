@@ -142,5 +142,4 @@ Coming soon on [Vercel](https://vercel.com/)... 👀
 
 Made with ❤️ using React, Vite, Firebase & Tailwind CSS
 
-```
 
