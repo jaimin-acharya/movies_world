@@ -134,7 +134,7 @@ const Wishlist = () => {
                 className="flex items-center justify-center gap-2 bg-red-600/20 hover:bg-red-600/30 border border-red-500/30 text-red-400 hover:text-red-300 px-4 py-2 rounded-lg transition-all duration-200 backdrop-blur-sm w-full sm:w-auto"
               >
                 <LogOut className="w-4 h-4" />
-                <span className="hidden sm:inline">Logout</span>
+                <span className="inline">Logout</span>
               </button>
             </div>
           </div>
