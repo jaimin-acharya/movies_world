@@ -1,11 +1,8 @@
-```markdown
-
----
 # 🎥 Movie World
 
 Welcome to **Movie World** – a modern movie browsing platform that allows users to explore trending movies and series, manage wishlists, and enjoy a seamless movie discovery experience.
 
-(public/moviesworld.png)
+![Movie World Banner](./public/moviesworld.png)
 
 ---
 
@@ -24,16 +21,16 @@ Welcome to **Movie World** – a modern movie browsing platform that allows user
 
 ## 🧰 Tech Stack
 
-| Category       | Tech Used                                                      |
+| Category        | Tech Used                                                      |
 |----------------|-----------------------------------------------------------------|
-| 🧑‍💻 Frontend     | [React.js](https://reactjs.org/) + [Vite](https://vitejs.dev/) |
-| 🌐 Routing      | React Router DOM                                               |
-| 🎨 Styling      | Tailwind CSS                                                   |
-| 🔐 Auth         | Firebase Authentication + OTP Login                            |
-| 📦 Backend API  | [Appwrite](https://appwrite.io/)                               |
-| 📁 State Mgmt   | React useState/useEffect                                       |
-| 🍿 Data         | TMDb API (The Movie Database) or similar                       |
-| 🚀 Deployment   | Vercel                                                         |
+| 🧑‍💻 Frontend      | [React.js](https://reactjs.org/) + [Vite](https://vitejs.dev/)|
+| 🌐 Routing       | [React Router DOM](https://reactrouter.com/)                  |
+| 🎨 Styling       | [Tailwind CSS](https://tailwindcss.com/)                      |
+| 🔐 Auth          | Firebase Authentication + OTP Login                           |
+| 📦 Backend API   | [Appwrite](https://appwrite.io/)                              |
+| 📁 State Mgmt    | React useState/useEffect                                      |
+| 🍿 Data          | TMDb API (The Movie Database) or similar                      |
+| 🚀 Deployment    | [Vercel](https://vercel.com/)                                 |
 
 ---
 
@@ -41,8 +38,9 @@ Welcome to **Movie World** – a modern movie browsing platform that allows user
 
 ```
 
-movies_world/
+movies\_world/
 ├── public/
+│   └── moviesworld.png      # Banner image
 ├── src/
 │   ├── api/                 # API logic (e.g., TMDb functions)
 │   ├── assets/              # Static assets like logos
@@ -55,11 +53,11 @@ movies_world/
 │   ├── App.jsx              # Main app component
 │   ├── firebase.js          # Firebase config
 │   ├── appwrite.js          # Appwrite config (if used)
-├── .env.example             # Environment variables
+├── .env.example             # Environment variables template
 ├── vite.config.js
 └── README.md
 
-````
+```
 
 ---
 
@@ -82,7 +80,7 @@ yarn
 
 ### 3. Configure Environment Variables
 
-Create a `.env` file and add your Firebase + API keys:
+Create a `.env` file and add your Firebase, Appwrite, and TMDb API keys:
 
 ```env
 # TMDB API
