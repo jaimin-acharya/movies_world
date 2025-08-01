@@ -106,7 +106,7 @@ const Footer = () => {
               <h3 className="text-xl font-bold text-white font-dm-sans">
                 Categories
               </h3>
-              <nav className="grid grid-cols-2 sm:grid-cols-1 gap-2 sm:gap-3">
+              <nav className="flex flex-col space-y-3">
                 {["Action", "Comedy", "Drama", "Thriller", "Sci-Fi"].map(
                   (category) => (
                     <a
