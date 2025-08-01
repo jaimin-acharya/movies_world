@@ -182,7 +182,7 @@ const Wishlist = () => {
                             {movie.title}
                           </h3>
                           <div className="flex justify-between items-center">
-                            <div className="absolute top-2 right-3 rating bg-[#0f0d234f] py-1 px-2 rounded-md backdrop-blur-md gap-1 flex items-center">
+                            <div className="absolute top-1 right-1 rating bg-[#0f0d234f] py-1 px-2 rounded-md backdrop-blur-md gap-1 flex items-center">
                               <img
                                 src="star.svg"
                                 alt="STAR ICON"
