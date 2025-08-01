@@ -131,14 +131,6 @@ App will be available at:
 
 ---
 
-## 🖼️ Screenshots (Optional)
-
-| Home Page                  | Wishlist Page                      |
-| -------------------------- | ---------------------------------- |
-| ![Home](./public/home.png) | ![Wishlist](./public/wishlist.png) |
-
----
-
 ## 👨‍💻 Author
 
 **Jaimin Acharya**
