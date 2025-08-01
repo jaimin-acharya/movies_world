@@ -7,11 +7,11 @@ Welcome to **Movies World** – a modern movie browsing platform that allows use
 ![Movies World Banner](./public/moviesworld.png)
 
 ## 🌐 Live
-🔗 [Visit Movie World](https://infomoviesworld.vercel.app/)
+🔗 [Visit Movies World](https://infomoviesworld.vercel.app/)
 
 ---
 
-![React](https://img.shields.io/badge/React-2023-blue)
+![React](https://img.shields.io/badge/React-2025-blue)
 ![Firebase](https://img.shields.io/badge/Firebase-Auth-yellow)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38BDF8)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
@@ -148,7 +148,7 @@ This project is licensed under the **MIT License** – see the [LICENSE](./LICEN
 
 ## 🔗 Live Demo
 
-👉 [Movie World on Vercel](https://infomoviesworld.vercel.app/)
+👉 [Movies World on Vercel](https://infomoviesworld.vercel.app/)
 
 ---
 
