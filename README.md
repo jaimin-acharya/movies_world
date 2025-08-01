@@ -1,10 +1,10 @@
-# 🎥 Movie World
+# 🎥 Movies World
 
-Welcome to **Movie World** – a modern movie browsing platform that allows users to explore trending movies and series, manage wishlists, and enjoy a seamless movie discovery experience.
+Welcome to **Movies World** – a modern movie browsing platform that allows users to explore trending movies and series, manage wishlists, and enjoy a seamless movie discovery experience.
 
 ---
 
-![Movie World Banner](./public/moviesworld.png)
+![Movies World Banner](./public/moviesworld.png)
 
 ## 🌐 Live
 🔗 [Visit Movie World](https://infomoviesworld.vercel.app/)
