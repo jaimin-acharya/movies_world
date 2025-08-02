@@ -28,12 +28,27 @@ export const fetchTrendingMoviesFromTMDB = async (query = "") => {
     (item) => item.media_type === "movie" || item.media_type === "tv"
   );
 };
+
 const genreMap = {
   action: 28,
+  adventure: 12,
+  animation: 16,
   comedy: 35,
+  crime: 80,
+  documentary: 99,
   drama: 18,
-  thriller: 53,
+  family: 10751,
+  fantasy: 14,
+  history: 36,
+  horror: 27,
+  music: 10402,
+  mystery: 9648,
+  romance: 10749,
   "sci-fi": 878,
+  "tv movie": 10770,
+  thriller: 53,
+  war: 10752,
+  western: 37,
 };
 
 export const fetchMoviesFromTMDB = async (query = "", page = 1) => {
@@ -56,13 +71,26 @@ export const fetchMoviesFromTMDB = async (query = "", page = 1) => {
     totalPages: data.total_pages || 1,
   };
 };
+
 const tvGenreMap = {
   action: 10759,
+  animation: 16,
   comedy: 35,
+  crime: 80,
+  documentary: 99,
   drama: 18,
-  thriller: 9648,
+  family: 10751,
+  kids: 10762,
+  mystery: 9648,
+  news: 10763,
+  reality: 10764,
   "sci-fi": 10765,
+  soap: 10766,
+  "talk show": 10767,
+  "war & politics": 10768,
+  western: 37,
 };
+
 export const fetchSeriesFromTMDB = async (query = "", page = 1) => {
   const genreId = tvGenreMap[query.toLowerCase()];
 
@@ -164,8 +192,6 @@ export const fetchAiringTodaySeriesFromTMDB = async () => {
 };
 
 export const fetchMovieDetailsFromTMDB = async ({ params }) => {
-  // console.log(params);
-
   const id = params.id;
 
   const endpoint = `${API_BASE_URL}/movie/${id}?language=en-US`;
@@ -173,7 +199,6 @@ export const fetchMovieDetailsFromTMDB = async ({ params }) => {
   const response = await fetch(endpoint, API_OPTIONS);
   if (!response.ok) throw new Error("Failed to fetch movies");
   const data = await response.json();
-  // console.log(data);
   return data;
 };
 
@@ -218,8 +243,6 @@ export const fetchMovieReviews = async (id) => {
 };
 
 export const fetchSeriesDetailsFromTMDB = async ({ params }) => {
-  console.log(params);
-
   const id = params.id;
 
   const endpoint = `${API_BASE_URL}/tv/${id}?language=en-US`;
@@ -227,7 +250,7 @@ export const fetchSeriesDetailsFromTMDB = async ({ params }) => {
   const response = await fetch(endpoint, API_OPTIONS);
   if (!response.ok) throw new Error("Failed to fetch series");
   const data = await response.json();
-  // console.log(data);
+
   return data;
 };
 
