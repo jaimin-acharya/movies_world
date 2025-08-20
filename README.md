@@ -2,27 +2,13 @@
 
 ### Welcome to **Movies World** – a modern movie browsing platform that allows users to explore trending movies and series, manage wishlists, and enjoy a seamless movie discovery experience.
 
----
-
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)  ![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)  ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase&logoColor=white)  ![Appwrite](https://img.shields.io/badge/appwrite-%23F02E65.svg?style=for-the-badge&logo=appwrite&logoColor=white)  ![React Router](https://img.shields.io/badge/React_Router-%23CA4245.svg?style=for-the-badge&logo=react-router&logoColor=white)  
-
-
----
 
 ![Movies World Banner](./public/moviesworld.png)
 
 ## 🌐 Live
 
 🔗 [Visit Movies World](https://infomoviesworld.vercel.app/)
-
----
-
-![React](https://img.shields.io/badge/React-2025-blue)
-![Firebase](https://img.shields.io/badge/Firebase-Auth-yellow)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38BDF8)
-![License: MIT](https://img.shields.io/badge/License-MIT-green)
-
----
 
 ## 🚀 Features
 
@@ -33,8 +19,6 @@
 - 📱 Fully responsive and accessible UI
 - ✨ Smooth animations and polished visuals
 - 📤 Email verification, forgot password, and login
-
----
 
 ## 🧰 Tech Stack
 
@@ -48,8 +32,6 @@
 | 📁 State Mgmt  | React useState/useEffect (or Context if extended)              |
 | 🍿 Data        | TMDb API (The Movie Database)                                  |
 | 🚀 Deployment  | [Vercel](https://vercel.com/)                                  |
-
----
 
 ## 📁 Folder Structure
 
@@ -73,8 +55,6 @@ movies_world/
 ├── vite.config.js
 └── README.md
 ```
-
----
 
 ## 🔧 Getting Started
 
@@ -122,7 +102,6 @@ npm run dev
 App will be available at:
 👉 `http://localhost:5173`
 
----
 
 ## ✅ How to Use
 
@@ -134,7 +113,6 @@ App will be available at:
 - Access protected routes only after login
 - Mobile-friendly, responsive layout for any device
 
----
 
 ## 👨‍💻 Author
 
@@ -144,18 +122,9 @@ App will be available at:
 - Email: [jaiminacharya9@gmail.com](mailto:jaiminacharya9@gmail.com)
 - Portfolio: [https://jaiminacharya.vercel.app](https://jaiminacharya.vercel.app)
 
----
 
 ## 📜 License
 
 This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.
 
----
-
-## 🔗 Live Demo
-
-👉 [Movies World on Vercel](https://infomoviesworld.vercel.app/)
-
----
-
-Made with ❤️ using React, Vite, Firebase & Tailwind CSS.
+Made By Jaimin Acharya with ❤️ using React, Vite, Firebase & Tailwind CSS.
