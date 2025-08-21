@@ -79,7 +79,7 @@ const MovieDetailsHero = () => {
         </div>
 
         {/* Back Button */}
-        <div className="absolute top-4 left-4 z-20">
+        <div className="absolute top-4 left-4 z-10">
           <button
             onClick={() => handleGoBack()}
             className="cursor-pointer flex items-center gap-2 bg-[#0f0d234f] rounded-md backdrop-blur-md hover:bg-black/50 text-white px-3 py-1.5 text-sm sm:text-base transition-all duration-300"
@@ -88,7 +88,7 @@ const MovieDetailsHero = () => {
             Back
           </button>
         </div>
-        <div className="absolute top-4 right-4 z-20">
+        <div className="absolute top-4 right-4 z-10">
           {!isInWishlist ? (
             <button
               onClick={() => addToWishlist(movieData)}
