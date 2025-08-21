@@ -22,7 +22,7 @@
 
 @layer base {
   body {
-    font-family: "DM Sans", serif;
+    font-family: "DM Sans", system-ui, serif;
     font-optical-sizing: auto;
     background: #030014;
   }
