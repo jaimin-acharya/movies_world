@@ -173,8 +173,8 @@ const MovieCardSkeleton = () => {
 
 const MovieGridSkeleton = () => {
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-      {Array.from({ length: 12 }).map((_, idx) => (
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+      {Array.from({ length: 20 }).map((_, idx) => (
         <MovieCardSkeleton key={idx} />
       ))}
     </div>
@@ -183,7 +183,7 @@ const MovieGridSkeleton = () => {
 
 const PopularCardSkeleton = () => {
   return (
-    <div className="min-w-[200px] sm:min-w-[180px] md:min-w-[200px] rounded-lg p-2 bg-dark-100 shadow-inner shadow-light-100/10 space-y-2">
+    <div className="min-w-[180px] sm:w-[200px] rounded-lg p-2 bg-dark-100 shadow-inner shadow-light-100/10 space-y-2">
       <Skeleton className="aspect-[2/3] w-full rounded-md" />
       <Skeleton className="h-4 w-3/4" />
       <Skeleton className="h-3 w-1/2" />

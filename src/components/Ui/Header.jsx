@@ -16,6 +16,20 @@ const Header = () => {
     return () => unsubscribe();
   }, []);
 
+  useEffect(() => {
+    if (isMenuOpen) {
+      const scrollY = window.scrollY;
+      document.body.style.position = "fixed";
+      document.body.style.top = `-${scrollY}px`;
+      document.body.style.width = "100%";
+    } else {
+      const scrollY = document.body.style.top;
+      document.body.style.position = "";
+      document.body.style.top = "";
+      window.scrollTo(0, parseInt(scrollY || "0") * -1);
+    }
+  }, [isMenuOpen]);
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -26,16 +40,16 @@ const Header = () => {
 
   return (
     <header className="mt-0 bg-transparent">
-      <div className="max-w-7xl mx-auto px-4 sm:px-2">
-        <div className="flex items-center justify-between h-16">
+      <div className="relative max-w-7xl mx-auto px-0 sm:px-2">
+        <div className="flex items-center justify-between p-1 h-16">
           <NavLink to="/" onClick={closeMenu}>
             <div className="text-2xl font-bold text-white flex justify-center items-center">
               <img
                 src="/logo.png"
                 alt="Movies World"
-                className="w-19 h-full p-0 m-0"
+                className="w-19 h-full p-0 m-0 z-30"
               />
-              <h1 className="text-xl sm:text-2xl text-white">Movies World</h1>
+              <h1 className="text-xl sm:text-2xl z-30 text-white">Movies World</h1>
             </div>
           </NavLink>
 
@@ -84,7 +98,7 @@ const Header = () => {
 
           <button
             onClick={toggleMenu}
-            className="lg:hidden text-white hover:text-gray-300 focus:outline-none transition-colors duration-300"
+            className="lg:hidden z-30 text-white hover:text-gray-300 focus:outline-none transition-colors duration-300"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? (
@@ -95,14 +109,23 @@ const Header = () => {
           </button>
         </div>
 
+        {/* Backdrop overlay with blur */}
+        {isMenuOpen && (
+          <div
+            className="fixed inset-0 bg-black/20 backdrop-blur-sm z-20 lg:hidden"
+            onClick={closeMenu}
+          />
+        )}
+
+        {/* Menu */}
         <div
-          className={`lg:hidden transition-all duration-300 ease-in-out ${
+          className={`absolute w-full z-30 lg:hidden transition-all duration-300 ease-in-out ${
             isMenuOpen
-              ? "max-h-75 opacity-100 visible"
+              ? "max-h-96 opacity-100 visible"
               : "max-h-0 opacity-0 invisible"
           } overflow-hidden`}
         >
-          <nav className="px-2 pt-2 pb-4 space-y-1 bg-white/10 backdrop-blur-md border-b border-white/20 text-center bg-opacity-90 rounded-lg mt-2">
+          <nav className="px-2 pt-2 pb-2 space-y-1 backdrop-blur border-2 border-white/20 text-center rounded-lg mt-2">
             <NavLink
               to="/"
               onClick={closeMenu}

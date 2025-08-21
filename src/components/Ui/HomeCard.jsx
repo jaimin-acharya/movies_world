@@ -16,7 +16,7 @@ const HomeCard = ({
   // console.log("Rendering:", title || name, "Type:", media_type);
   return (
     <NavLink to={`/${routeType}/${id}`}>
-      <div className="movie-card relative w-[200px]  sm:h-[380px] ">
+      <div className="movie-card relative w-[180px] sm:w-[200px] sm:h-[380px] ">
         <img
           src={
             poster_path

@@ -158,7 +158,7 @@ const Wishlist = () => {
               </p>
             </div>
           ) : (
-            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
               {wishlistMovies.map((movie) => {
                 const routeType = movie.media_type;
                 return (
@@ -201,7 +201,7 @@ const Wishlist = () => {
                     </NavLink>
                     <button
                       onClick={() => handleRemove(movie.id)}
-                      className="absolute bottom-2 right-3 bg-black/50 px-2 py-2 rounded-lg text-red-400 hover:bg-black/70 transition"
+                      className="absolute bottom-2 right-3 bg-black/50 px-2 py-2 rounded-full text-red-400 hover:bg-black/70 transition"
                       aria-label="Remove from Wishlist"
                     >
                       <Trash2 className="w-4 h-4" />

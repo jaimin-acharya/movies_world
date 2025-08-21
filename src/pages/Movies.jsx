@@ -73,8 +73,8 @@ const Movies = () => {
       ) : error ? (
         <p className="text-red-500 text-center">{error}</p>
       ) : (
-        <ul className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {movies.slice(0,12).map((movie) => (
+        <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">
+          {movies.map((movie) => (
             <Suspense key={movie.id} fallback={<Spinner />}>
               <MovieCard movie={movie} />
             </Suspense>
