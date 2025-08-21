@@ -153,7 +153,13 @@ const MovieDetailsHero = () => {
 
                 <div className="flex items-center gap-2 bg-black/60 backdrop-blur-sm px-3 py-2 rounded-full text-gray-300">
                   <Calendar className="w-4 h-4" />
-                  <span>{new Date(release_date).getFullYear()}</span>
+                  <span>
+                    {new Date(release_date).getDate()}{" "}
+                    {new Date(release_date).toLocaleString("default", {
+                      month: "long",
+                    }).slice(0, 3)}{" "}
+                    {new Date(release_date).getFullYear()}
+                  </span>
                 </div>
 
                 {runtime && (
