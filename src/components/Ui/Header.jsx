@@ -125,7 +125,7 @@ const Header = () => {
               : "max-h-0 opacity-0 invisible"
           } overflow-hidden`}
         >
-          <nav className="px-2 pt-2 pb-2 space-y-1 backdrop-blur-md border-2 border-white/20 text-center rounded-lg mt-2">
+          <nav className="px-2 pt-2 pb-2 space-y-1 bg-white/10 backdrop-blur-md border-2 border-white/20 text-center rounded-lg mt-2">
             <NavLink
               to="/"
               onClick={closeMenu}
