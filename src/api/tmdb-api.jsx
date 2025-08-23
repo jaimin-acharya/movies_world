@@ -68,7 +68,7 @@ export const fetchMoviesFromTMDB = async (query = "", page = 1) => {
   const data = await response.json();
   return {
     results: data.results || [],
-    totalPages: data.total_pages || 1,
+    totalPages: Math.min(data.total_pages || 1, 500),
   };
 };
 
@@ -109,7 +109,7 @@ export const fetchSeriesFromTMDB = async (query = "", page = 1) => {
 
   return {
     results: data.results || [],
-    totalPages: data.total_pages || 1,
+    totalPages: Math.min(data.total_pages || 1, 500),
   };
 };
 

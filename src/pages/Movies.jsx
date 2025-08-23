@@ -34,6 +34,8 @@ const Movies = () => {
       );
       setMovies(results);
       setTotalPages(totalPages);
+      console.log(totalPages);
+      
       if (query && results.length > 0) {
         await updateSearchCount(query, results[0]);
       }
