@@ -187,24 +187,18 @@ const Footer = () => {
               © 2025 Movies World. All rights reserved.
             </p>
             <div className="flex items-center space-x-6">
-              <a
-                href="#"
+              <NavLink
+                to="/privacy"
                 className="text-gray-100 hover:text-white text-sm transition-colors duration-200 font-dm-sans"
               >
                 Privacy Policy
-              </a>
-              <a
-                href="#"
+              </NavLink>
+              <NavLink
+                to="/terms"
                 className="text-gray-100 hover:text-white text-sm transition-colors duration-200 font-dm-sans"
               >
                 Terms of Service
-              </a>
-              <a
-                href="#"
-                className="text-gray-100 hover:text-white text-sm transition-colors duration-200 font-dm-sans"
-              >
-                DMCA
-              </a>
+              </NavLink>
             </div>
           </div>
         </div>

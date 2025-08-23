@@ -27,6 +27,8 @@ import MovieDetails from "./components/Ui/Movies/MovieDetails";
 import ForgotPassword from "./pages/ForgotPassword";
 import VerifyEmail from "./pages/VerifyEmail";
 import SeriesDetails from "./components/Ui/TvSeries/SeriesDetails";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsAndConditions from "./pages/TermsConditions";
 
 const App = () => {
   const [initialLoading, setInitialLoading] = useState(true);
@@ -107,7 +109,9 @@ const App = () => {
           element: <VerifyEmail />,
         },
         { path: "/signup", element: <SignUp /> },
-        { path: "contact", element: <Contact /> },
+        { path: "/contact", element: <Contact /> },
+        { path: "/privacy", element: <PrivacyPolicy /> },
+        { path: "/terms", element: <TermsAndConditions /> },
       ],
     },
   ]);
